@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish=swap');
+
+html, body {
+    width: auto;
+    height: auto;
+    font-family: 'Mulish';
+    font-size:  18px;
+    color: #222;
+}
+body {
+    background-image: url("1.jpg");
+    width: auto;
+    height: auto;
+    background-attachment:fixed;
+}
+
+ul  {
+    margin-left: 15px;
+}
+ul li {
+    height: 70px;
+}
+ul li a {
+    font-size: 20px;
+    color: black !important;
+}
+ul li a:hover {
+    color: black !important;
+}
+ul p {
+    padding-left: 30px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+tr{
+    cursor: pointer;
+    list-style-type: none;
+    background: #eee;
+    font-size: 23px;
+    transition: 0.2s;
+}
+
+tr td{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000
+}
+
+tr {
+    background: #0C9A9A;
+}
+
+tr:hover {
+    background: #ddd;
+}
+
+th {
+    cursor: pointer;
+}
+
+.create1 {
+    font-size: 60px;
+    color: rgb(132, 4, 4);
+}
+
+.sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+.sortable tr { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+.sortable tr td { position: absolute; margin-left: -1.3em; }
